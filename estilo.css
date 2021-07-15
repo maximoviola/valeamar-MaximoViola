@@ -418,12 +418,12 @@ text-align: center;
 
 @media screen and (max-width : 800px){
 
-	#pantalla-dividida{
+	.pantalla-dividida{
 		flex-direction: column-reverse;
 		align-items: center;
 
 	}
-	#imagen-back{
+	.imagen-back{
 		min-width: 200px;
 	}
 	h1{
@@ -442,7 +442,7 @@ text-align: center;
 		height: auto;
 		padding: 5px;
 	}
-	#imagen-nosotros{
+	.imagen-lateral{
 		
 		min-width: 200px;
 
