@@ -420,6 +420,7 @@ text-align: center;
 
 	.pantalla-dividida{
 		flex-direction: column-reverse;
+		flex-wrap: nowrap;
 		align-items: center;
 
 	}
