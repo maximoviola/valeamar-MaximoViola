@@ -422,10 +422,13 @@ text-align: center;
 		flex-direction: column-reverse;
 		flex-wrap: nowrap;
 		align-items: center;
+		
 
 	}
 	.imagen-back{
 		min-width: 160px;
+		margin-top:30px;
+		
 	}
 	h1{
 		text-align: center;
