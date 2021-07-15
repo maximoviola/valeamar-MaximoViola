@@ -136,8 +136,8 @@ header{
 
 		#imagen-nosotros{
 			display: flex;
-			max-width: 540px;
-			min-width: 420px;
+			max-width: 250px;
+			min-width: 220px;
 			margin-left: 5px;
 			margin-top: 5px;
 		}
