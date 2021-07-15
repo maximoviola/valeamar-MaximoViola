@@ -39,7 +39,7 @@ header{
 			margin-right: 6px;
 			justify-content: flex-start;
 			display: flex;
-			background-color:#f195b3e;
+			background-color:#f195b3;
 				
 				
 			}
@@ -169,9 +169,9 @@ header{
 		#bienvenidos{ 
 			font-size: 1em;
 			width: 100%;
-			i
+		}
+		
 
-}
 #logo-index{
 	width: 20%;
 	
