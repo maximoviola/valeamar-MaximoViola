@@ -422,12 +422,15 @@ text-align: center;
 		flex-direction: column-reverse;
 		flex-wrap: nowrap;
 		align-items: center;
+		padding-top:100px;
+
 		
 
 	}
 	.imagen-back{
+		height: 55vh;
 		min-width: 160px;
-		margin-top:30px;
+		margin-top:40px;
 		
 	}
 	h1{
@@ -442,6 +445,7 @@ text-align: center;
 
 	}
 	.text{
+		min-width:80%;
 		font-size: 1rem;
 		height: auto;
 		padding: 5px;
