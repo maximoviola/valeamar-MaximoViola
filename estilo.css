@@ -165,6 +165,7 @@ header{
 			justify-content: center;
 			padding-top:80px ;
 			color: 	#f195b3;
+			margin-bottom: 200px;
 	
 		}/*texto del index*/
 		#bienvenidos{ 
@@ -445,6 +446,12 @@ text-align: center;
 .foto{
 	width: 200px;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+	}
 
 @media screen and (max-width : 800px){
 
@@ -492,6 +499,8 @@ text-align: center;
 		font-size: 1rem;
 		height: auto;
 		padding: 5px;
+		padding-top: 60px;
+		margin-bottom: 150px;
 	}
 	.imagen-lateral{
 		
@@ -503,9 +512,22 @@ text-align: center;
 		width: 200px;
 
 	}
-
+	footer{
+		color: #f195b3;
+		padding-top: 28px;
+		margin-bottom: 8px;
+		text-align: center;
+		clear: both;
+		font-size: 0.6rem;
+	}
+	
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+	}
 }
-
 @media screen and (max-width : 400px){
 
 	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
@@ -534,14 +556,23 @@ text-align: center;
 		margin-top: 5px;
 		padding-top: 2px;
 	}
+
 	.pantalla-dividida {
 		display: flex;
 		flex-wrap: nowrap;
 		justify-items: center;
 		align-items: center;
-		padding-top: 55px;
-		
+		padding-top: 55px;		
 		height: 90%;
 		width: 100%;
+	}
+
+	footer{
+		color: #f195b3;
+		padding-top: 28px;
+		margin-bottom: 8px;
+		text-align: center;
+		clear: both;
+		font-size: 0.5rem;
 	}
 }
