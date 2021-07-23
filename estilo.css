@@ -148,6 +148,19 @@ header{
 			margin-left: 5px;
 			margin-top: 5px;
 		}
+		img {
+			max-width :100%;
+		}
+		.gallery{
+			padding: 80px;
+		}
+		.gallery img{
+			background-color: #ffffff;
+			padding: 10px;
+			margin: 5px;
+			width: 100%;
+			box-shadow: 0 0 15px rgba(0,0,0,0.3);
+		}
 		.imagen {
 			width: 50%;
 			height: 100%;
