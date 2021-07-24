@@ -342,6 +342,7 @@ form{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+	}
 
 .table{
 	width: 100%;
