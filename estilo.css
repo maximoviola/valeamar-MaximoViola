@@ -189,7 +189,9 @@ header{
 			width: 100%;
 		}
 		
-
+		.carousel-control-next {
+			margin-top: 80px;
+		}
 #logo-index{
 	width: 20%;
 	
