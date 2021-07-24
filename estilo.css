@@ -275,6 +275,7 @@ h1{
 	font-weight: bold;
 	color: #f195b3;
 	font-size: 40px;
+	padding-top: 100px;
 
 }
 #h1-index{
@@ -336,6 +337,11 @@ form{
 	padding-right: 20px;
 	font-family: helvetica;
 }
+.d-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 
 .table{
 	width: 100%;

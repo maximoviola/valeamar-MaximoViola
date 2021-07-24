@@ -39,7 +39,7 @@
 	
 	<section id="pantalla-formulario">
 
-		<div class="form"> 
+	<!--	<div class="form"> 
 
 		
 		<fieldset>
@@ -78,6 +78,63 @@
 			</form>
 		</fieldset>
 		</div>
+	-->
+		<div class="container px-5 my-5">
+    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="form-floating mb-3">
+            <input class="form-control" id="nombre" type="text" placeholder="Nombre" data-sb-validations="required" />
+            <label for="nombre">Nombre</label>
+            <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre is required.</div>
+        </div>
+        <div class="form-floating mb-3">
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="email,required" />
+            <label for="emailAddress">Email Address</label>
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;" data-sb-validations="required"></textarea>
+            <label for="mensaje">Mensaje</label>
+            <div class="invalid-feedback" data-sb-feedback="mensaje:required">Mensaje is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label d-block">Sexo</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="hombre" type="radio" name="sexo" data-sb-validations="" />
+                <label class="form-check-label" for="hombre">Hombre</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="mujer" type="radio" name="sexo" data-sb-validations="" />
+                <label class="form-check-label" for="mujer">Mujer</label>
+            </div>
+        </div>
+        <div class="form-floating mb-3">
+            <select class="form-select" id="pais" aria-label="País">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="México">México</option>
+            </select>
+            <label for="pais">País</label>
+        </div>
+        <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                <p>To activate this form, sign up at</p>
+                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+            </div>
+        </div>
+        <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <div class="d-grid">
+			<button class="btn btn-secondary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
+			
+			<button type="button" class="btn btn-outline-secondary">Limpiar</button>
+            
+        </div>
+    </form>
+</div>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 		
 		
 	</section>
